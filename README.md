@@ -6,7 +6,6 @@ I’m a Manual SQA Tester experienced in:
 - 🐞 Defect lifecycle management using Jira
 - 📋 Test documentation and reporting with Excel
 - 🌱 Team onboarding and technical mentoring
-- 🔧 Git/GitHub workflows: Repo configuration, version tracking
 
 I believe in bridging the gap between theoretical QA concepts and real-world application through practical tools, clear documentation, and collaborative testing.
 
