@@ -1,0 +1,471 @@
+{
+	"info": {
+		"_postman_id": "4d27a25a-2f0d-487f-b70b-bef4fcc03a63",
+		"name": "Jvai Website",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12976487",
+		"_collection_link": "https://ai-ninjas.postman.co/workspace/AI-Ninjas-Workspace~cebfad13-ebde-472f-8964-eef059be8288/collection/12976487-4d27a25a-2f0d-487f-b70b-bef4fcc03a63?action=share&source=collection_link&creator=12976487"
+	},
+	"item": [
+		{
+			"name": "Categories",
+			"item": [
+				{
+					"name": "Get All Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/category/get_all_categories/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"category",
+								"get_all_categories",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Jobs",
+			"item": [
+				{
+					"name": "Get All Job",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/jobs/all_job/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"jobs",
+								"all_job",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Apply For Job",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "job",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "full_name",
+									"value": " kohn Doe",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": " john.doe@example.com",
+									"type": "text"
+								},
+								{
+									"key": "phone_number",
+									"value": " 123-456-7890",
+									"type": "text"
+								},
+								{
+									"key": "motivation",
+									"value": " I am passionate about UI/UX design and believe my skills align with this job.",
+									"type": "text"
+								},
+								{
+									"key": "project_description",
+									"value": " I designed a mobile app for a startup that helps users track their fitness goals.",
+									"type": "text"
+								},
+								{
+									"key": "portfolio_url",
+									"value": " https://www.behance.net/johndoe",
+									"type": "text"
+								},
+								{
+									"key": "salary_expectations",
+									"value": " $60,000 - $70,000",
+									"type": "text"
+								},
+								{
+									"key": "resume",
+									"type": "file",
+									"src": "/home/jvai/Documents/client_credentials.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}api/jobs/submit_application/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"jobs",
+								"submit_application",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Seo",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/seo/get_seo_content/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"seo",
+								"get_seo_content",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Client Review",
+			"item": [
+				{
+					"name": "Get Client Reviews",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/review/get_client_reviews/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"review",
+								"get_client_reviews",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Experts",
+			"item": [
+				{
+					"name": "Get Expert List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/experts/get_all_experts/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"experts",
+								"get_all_experts",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "What we do everyday",
+			"item": [
+				{
+					"name": "get all everyday activity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/what_we_do_everyday/get_what_we_do/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"what_we_do_everyday",
+								"get_what_we_do",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Projects",
+			"item": [
+				{
+					"name": "Get All Projects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/projects/get_all_projects/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"projects",
+								"get_all_projects",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Individual Project",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/projects/get_individual_project/1/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"projects",
+								"get_individual_project",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Faq",
+			"item": [
+				{
+					"name": "Get All Faqs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/faq/get_all_faq/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"faq",
+								"get_all_faq",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contact Us",
+			"item": [
+				{
+					"name": "Send Contact Us Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"full_name\": \"Jane Doe\",\r\n    \"email\": \"jane.doe@example.com\",\r\n    \"service\": \"UI/UX Design\",\r\n    \"project_budget\": \"Under $1,000\",\r\n    \"project_details\": \"Looking for a designer to create a logo and a simple one-page design for my new portfolio website. I have a color palette in mind but need help with the layout and branding.\",\r\n    \"whatsapp_number\": \"12345\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}api/contact/send_contact_request/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"contact",
+								"send_contact_request",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Newsletter",
+			"item": [
+				{
+					"name": "Subscribe",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@test.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}api/newsletter/subscribe/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"newsletter",
+								"subscribe",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Jvai Insider",
+			"item": [
+				{
+					"name": "Get All Articles",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@test.com\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}api/jvai_insider/get_all_articles/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"jvai_insider",
+								"get_all_articles",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Individual Article",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}api/jvai_insider/get_individual_article/1/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"jvai_insider",
+								"get_individual_article",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Chatbot",
+			"item": [
+				{
+					"name": "Send message",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"query\": \"Do do you AI?\",\r\n  \"history\": [\r\n    {\r\n      \"role\": \"user\",\r\n      \"text\": \"Hi, what is Venture AI?\"\r\n    },\r\n    {\r\n      \"role\": \"model\",\r\n      \"text\": \"Venture AI is an innovative company that specializes in creating custom AI solutions to help businesses optimize their operations and drive growth. How can I help you further?\"\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}api/chatbot/send_message/",
+							"host": [
+								"{{base_url}}api"
+							],
+							"path": [
+								"chatbot",
+								"send_message",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://10.10.13.91:8111/",
+			"type": "string"
+		}
+	]
+}
