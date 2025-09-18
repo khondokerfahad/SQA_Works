@@ -1,0 +1,532 @@
+2025-09-16 12:29:55,349 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-09-16 12:29:55,361 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2025-09-16 12:29:55,361 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2025-09-16 12:29:55,367 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-09-16 12:29:55,367 INFO o.a.j.JMeter: Version 5.6.3
+2025-09-16 12:29:55,367 INFO o.a.j.JMeter: java.version=24.0.2
+2025-09-16 12:29:55,367 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-09-16 12:29:55,368 INFO o.a.j.JMeter: os.name=Windows 11
+2025-09-16 12:29:55,368 INFO o.a.j.JMeter: os.arch=amd64
+2025-09-16 12:29:55,368 INFO o.a.j.JMeter: os.version=10.0
+2025-09-16 12:29:55,368 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-09-16 12:29:55,368 INFO o.a.j.JMeter: java.awt.headless=null
+2025-09-16 12:29:55,368 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-09-16 12:29:55,368 INFO o.a.j.JMeter: Available Processors =12
+2025-09-16 12:29:55,377 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-09-16 12:29:55,377 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-09-16 12:29:55,377 INFO o.a.j.JMeter: JMeterHome=C:\Users\fahad\SQA_Works\Jmeter\Resources\apache-jmeter-5.6.3
+2025-09-16 12:29:55,378 INFO o.a.j.JMeter: user.dir  =C:\Users\fahad\SQA_Works\Jmeter\Resources\apache-jmeter-5.6.3\bin
+2025-09-16 12:29:55,378 INFO o.a.j.JMeter: PWD       =C:\Users\fahad\SQA_Works\Jmeter\Resources\apache-jmeter-5.6.3\bin
+2025-09-16 12:29:55,379 INFO o.a.j.JMeter: IP: 10.10.12.7 Name: DESKTOP-67CNCQV FullName: DESKTOP-67CNCQV
+2025-09-16 12:29:55,386 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-09-16 12:29:55,518 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2025-09-16 12:32:26,815 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-16 12:32:26,816 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-16 12:32:26,816 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-16 12:32:26,816 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-16 12:32:26,816 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-09-16 12:32:26,816 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-09-16 12:34:22,030 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-09-16 12:34:22,031 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-09-16 12:34:22,031 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-09-16 12:34:22,031 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-09-16 12:35:47,665 INFO o.a.j.s.FileServer: Default base='C:\Users\fahad\SQA_Works\Jmeter\Resources\apache-jmeter-5.6.3\bin'
+2025-09-16 12:35:47,666 INFO o.a.j.s.FileServer: Set new base='C:\Users\fahad\SQA_Works\Jmeter\saucedemo'
+2025-09-16 12:35:47,885 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-09-16 12:35:47,914 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-09-16 12:35:47,914 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-09-16 12:35:47,941 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-09-16 12:35:47,942 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-16 12:35:47,942 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-16 12:35:47,943 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-09-16 12:35:47,943 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-09-16 12:35:47,988 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-09-16 12:35:48,019 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Saucedemo.com
+2025-09-16 12:35:48,019 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Saucedemo.com.
+2025-09-16 12:35:48,019 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-09-16 12:35:48,019 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=10 delayedStart=false
+2025-09-16 12:35:48,023 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-1
+2025-09-16 12:35:48,032 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-09-16 12:35:48,032 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-09-16 12:35:48,033 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-67CNCQV
+2025-09-16 12:35:48,038 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-09-16 12:35:48,141 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-09-16 12:35:48,143 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-09-16 12:35:48,143 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-09-16 12:35:48,221 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-2
+2025-09-16 12:35:48,237 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-09-16 12:35:48,239 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-09-16 12:35:48,239 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-09-16 12:35:48,421 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-3
+2025-09-16 12:35:48,622 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-4
+2025-09-16 12:35:48,820 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-5
+2025-09-16 12:35:49,021 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-6
+2025-09-16 12:35:49,220 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-7
+2025-09-16 12:35:49,254 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-1
+2025-09-16 12:35:49,255 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-1
+2025-09-16 12:35:49,267 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-4
+2025-09-16 12:35:49,267 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-4
+2025-09-16 12:35:49,270 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-3
+2025-09-16 12:35:49,270 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-3
+2025-09-16 12:35:49,300 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-2
+2025-09-16 12:35:49,300 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-2
+2025-09-16 12:35:49,421 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-8
+2025-09-16 12:35:49,456 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-5
+2025-09-16 12:35:49,456 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-5
+2025-09-16 12:35:49,620 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-9
+2025-09-16 12:35:49,672 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-6
+2025-09-16 12:35:49,673 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-6
+2025-09-16 12:35:49,819 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-10
+2025-09-16 12:35:49,842 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-7
+2025-09-16 12:35:49,842 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-7
+2025-09-16 12:35:50,021 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-11
+2025-09-16 12:35:50,068 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-8
+2025-09-16 12:35:50,068 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-8
+2025-09-16 12:35:50,221 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-12
+2025-09-16 12:35:50,279 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-9
+2025-09-16 12:35:50,279 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-9
+2025-09-16 12:35:50,420 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-13
+2025-09-16 12:35:50,461 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-10
+2025-09-16 12:35:50,462 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-10
+2025-09-16 12:35:50,621 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-14
+2025-09-16 12:35:50,635 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-11
+2025-09-16 12:35:50,635 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-11
+2025-09-16 12:35:50,820 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-15
+2025-09-16 12:35:50,834 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-12
+2025-09-16 12:35:50,835 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-12
+2025-09-16 12:35:51,020 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-16
+2025-09-16 12:35:51,033 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-13
+2025-09-16 12:35:51,033 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-13
+2025-09-16 12:35:51,219 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-17
+2025-09-16 12:35:51,236 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-14
+2025-09-16 12:35:51,236 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-14
+2025-09-16 12:35:51,419 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-18
+2025-09-16 12:35:51,436 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-15
+2025-09-16 12:35:51,436 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-15
+2025-09-16 12:35:51,620 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-19
+2025-09-16 12:35:51,664 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-16
+2025-09-16 12:35:51,665 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-16
+2025-09-16 12:35:51,821 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-20
+2025-09-16 12:35:51,856 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-17
+2025-09-16 12:35:51,856 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-17
+2025-09-16 12:35:52,021 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-21
+2025-09-16 12:35:52,032 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-18
+2025-09-16 12:35:52,033 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-18
+2025-09-16 12:35:52,219 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-22
+2025-09-16 12:35:52,232 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-19
+2025-09-16 12:35:52,232 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-19
+2025-09-16 12:35:52,419 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-23
+2025-09-16 12:35:52,421 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-20
+2025-09-16 12:35:52,422 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-20
+2025-09-16 12:35:52,619 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-24
+2025-09-16 12:35:52,641 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-21
+2025-09-16 12:35:52,642 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-21
+2025-09-16 12:35:52,821 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-25
+2025-09-16 12:35:52,849 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-22
+2025-09-16 12:35:52,850 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-22
+2025-09-16 12:35:53,019 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-26
+2025-09-16 12:35:53,056 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-23
+2025-09-16 12:35:53,057 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-23
+2025-09-16 12:35:53,221 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-27
+2025-09-16 12:35:53,232 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-24
+2025-09-16 12:35:53,232 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-24
+2025-09-16 12:35:53,419 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-28
+2025-09-16 12:35:53,457 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-25
+2025-09-16 12:35:53,457 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-25
+2025-09-16 12:35:53,619 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-29
+2025-09-16 12:35:53,623 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-26
+2025-09-16 12:35:53,623 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-26
+2025-09-16 12:35:53,819 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-27
+2025-09-16 12:35:53,820 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-27
+2025-09-16 12:35:53,821 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-30
+2025-09-16 12:35:54,020 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-31
+2025-09-16 12:35:54,041 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-28
+2025-09-16 12:35:54,041 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-28
+2025-09-16 12:35:54,219 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-32
+2025-09-16 12:35:54,252 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-29
+2025-09-16 12:35:54,252 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-29
+2025-09-16 12:35:54,420 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-33
+2025-09-16 12:35:54,446 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-30
+2025-09-16 12:35:54,447 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-30
+2025-09-16 12:35:54,619 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-34
+2025-09-16 12:35:54,659 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-31
+2025-09-16 12:35:54,659 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-31
+2025-09-16 12:35:54,820 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-35
+2025-09-16 12:35:54,854 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-32
+2025-09-16 12:35:54,854 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-32
+2025-09-16 12:35:55,021 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-36
+2025-09-16 12:35:55,065 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-33
+2025-09-16 12:35:55,065 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-33
+2025-09-16 12:35:55,219 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-37
+2025-09-16 12:35:55,287 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-34
+2025-09-16 12:35:55,288 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-34
+2025-09-16 12:35:55,420 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-38
+2025-09-16 12:35:55,450 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-35
+2025-09-16 12:35:55,451 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-35
+2025-09-16 12:35:55,619 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-39
+2025-09-16 12:35:55,656 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-36
+2025-09-16 12:35:55,656 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-36
+2025-09-16 12:35:55,820 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-40
+2025-09-16 12:35:55,845 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-37
+2025-09-16 12:35:55,845 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-37
+2025-09-16 12:35:56,020 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-41
+2025-09-16 12:35:56,025 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-38
+2025-09-16 12:35:56,025 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-38
+2025-09-16 12:35:56,221 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-42
+2025-09-16 12:35:56,261 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-39
+2025-09-16 12:35:56,261 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-39
+2025-09-16 12:35:56,420 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-43
+2025-09-16 12:35:56,456 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-40
+2025-09-16 12:35:56,456 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-40
+2025-09-16 12:35:56,620 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-44
+2025-09-16 12:35:56,649 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-41
+2025-09-16 12:35:56,650 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-41
+2025-09-16 12:35:56,819 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-45
+2025-09-16 12:35:57,019 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-46
+2025-09-16 12:35:57,040 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-43
+2025-09-16 12:35:57,040 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-43
+2025-09-16 12:35:57,158 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-42
+2025-09-16 12:35:57,159 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-42
+2025-09-16 12:35:57,219 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-47
+2025-09-16 12:35:57,243 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-44
+2025-09-16 12:35:57,244 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-44
+2025-09-16 12:35:57,420 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-48
+2025-09-16 12:35:57,461 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-45
+2025-09-16 12:35:57,462 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-45
+2025-09-16 12:35:57,621 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-49
+2025-09-16 12:35:57,650 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-46
+2025-09-16 12:35:57,650 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-46
+2025-09-16 12:35:57,820 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-50
+2025-09-16 12:35:57,851 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-47
+2025-09-16 12:35:57,851 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-47
+2025-09-16 12:35:58,047 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-48
+2025-09-16 12:35:58,047 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-48
+2025-09-16 12:35:58,273 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-49
+2025-09-16 12:35:58,274 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-49
+2025-09-16 12:35:58,449 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-50
+2025-09-16 12:35:58,450 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-50
+2025-09-16 12:35:58,451 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-09-16 12:35:58,452 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-09-16 12:37:21,939 INFO o.a.j.s.FileServer: Set new base='C:\Users\fahad\SQA_Works\Jmeter\saucedemo'
+2025-09-16 12:43:11,756 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-09-16 12:43:11,757 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-16 12:43:11,757 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-09-16 12:43:11,798 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Saucedemo.com
+2025-09-16 12:43:11,798 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Saucedemo.com.
+2025-09-16 12:43:11,798 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-09-16 12:43:11,798 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=10 delayedStart=false
+2025-09-16 12:43:11,800 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-1
+2025-09-16 12:43:11,811 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-09-16 12:43:11,811 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-09-16 12:43:12,000 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-2
+2025-09-16 12:43:12,200 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-3
+2025-09-16 12:43:12,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-4
+2025-09-16 12:43:12,521 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-1
+2025-09-16 12:43:12,521 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-1
+2025-09-16 12:43:12,600 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-5
+2025-09-16 12:43:12,738 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-2
+2025-09-16 12:43:12,738 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-2
+2025-09-16 12:43:12,799 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-6
+2025-09-16 12:43:12,807 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-3
+2025-09-16 12:43:12,808 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-3
+2025-09-16 12:43:12,999 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-7
+2025-09-16 12:43:13,004 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-4
+2025-09-16 12:43:13,004 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-4
+2025-09-16 12:43:13,198 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-8
+2025-09-16 12:43:13,233 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-5
+2025-09-16 12:43:13,233 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-5
+2025-09-16 12:43:13,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-9
+2025-09-16 12:43:13,417 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-6
+2025-09-16 12:43:13,417 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-6
+2025-09-16 12:43:13,599 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-10
+2025-09-16 12:43:13,620 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-7
+2025-09-16 12:43:13,620 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-7
+2025-09-16 12:43:13,799 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-11
+2025-09-16 12:43:13,818 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-8
+2025-09-16 12:43:13,818 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-8
+2025-09-16 12:43:13,999 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-12
+2025-09-16 12:43:14,006 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-9
+2025-09-16 12:43:14,006 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-9
+2025-09-16 12:43:14,199 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-13
+2025-09-16 12:43:14,205 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-10
+2025-09-16 12:43:14,206 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-10
+2025-09-16 12:43:14,401 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-14
+2025-09-16 12:43:14,417 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-11
+2025-09-16 12:43:14,417 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-11
+2025-09-16 12:43:14,600 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-12
+2025-09-16 12:43:14,600 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-15
+2025-09-16 12:43:14,601 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-12
+2025-09-16 12:43:14,800 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-16
+2025-09-16 12:43:14,817 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-13
+2025-09-16 12:43:14,817 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-13
+2025-09-16 12:43:14,999 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-17
+2025-09-16 12:43:15,001 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-14
+2025-09-16 12:43:15,001 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-14
+2025-09-16 12:43:15,199 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-18
+2025-09-16 12:43:15,206 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-15
+2025-09-16 12:43:15,206 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-15
+2025-09-16 12:43:15,397 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-16
+2025-09-16 12:43:15,398 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-16
+2025-09-16 12:43:15,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-19
+2025-09-16 12:43:15,600 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-20
+2025-09-16 12:43:15,601 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-17
+2025-09-16 12:43:15,601 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-17
+2025-09-16 12:43:15,799 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-21
+2025-09-16 12:43:15,801 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-18
+2025-09-16 12:43:15,801 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-18
+2025-09-16 12:43:15,999 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-22
+2025-09-16 12:43:16,024 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-19
+2025-09-16 12:43:16,024 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-19
+2025-09-16 12:43:16,200 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-23
+2025-09-16 12:43:16,201 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-20
+2025-09-16 12:43:16,201 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-20
+2025-09-16 12:43:16,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-24
+2025-09-16 12:43:16,431 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-21
+2025-09-16 12:43:16,431 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-21
+2025-09-16 12:43:16,599 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-25
+2025-09-16 12:43:16,651 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-22
+2025-09-16 12:43:16,651 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-22
+2025-09-16 12:43:16,798 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-26
+2025-09-16 12:43:16,803 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-23
+2025-09-16 12:43:16,803 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-23
+2025-09-16 12:43:17,001 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-27
+2025-09-16 12:43:17,021 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-24
+2025-09-16 12:43:17,022 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-24
+2025-09-16 12:43:17,200 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-28
+2025-09-16 12:43:17,201 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-25
+2025-09-16 12:43:17,201 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-25
+2025-09-16 12:43:17,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-29
+2025-09-16 12:43:17,432 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-26
+2025-09-16 12:43:17,432 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-26
+2025-09-16 12:43:17,596 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-27
+2025-09-16 12:43:17,596 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-27
+2025-09-16 12:43:17,599 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-30
+2025-09-16 12:43:17,800 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-31
+2025-09-16 12:43:17,813 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-28
+2025-09-16 12:43:17,814 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-28
+2025-09-16 12:43:18,000 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-32
+2025-09-16 12:43:18,031 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-29
+2025-09-16 12:43:18,031 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-29
+2025-09-16 12:43:18,200 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-33
+2025-09-16 12:43:18,223 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-30
+2025-09-16 12:43:18,224 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-30
+2025-09-16 12:43:18,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-34
+2025-09-16 12:43:18,406 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-31
+2025-09-16 12:43:18,406 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-31
+2025-09-16 12:43:18,598 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-35
+2025-09-16 12:43:18,644 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-32
+2025-09-16 12:43:18,644 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-32
+2025-09-16 12:43:18,798 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-36
+2025-09-16 12:43:18,826 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-33
+2025-09-16 12:43:18,826 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-33
+2025-09-16 12:43:19,000 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-37
+2025-09-16 12:43:19,025 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-34
+2025-09-16 12:43:19,025 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-34
+2025-09-16 12:43:19,199 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-38
+2025-09-16 12:43:19,225 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-35
+2025-09-16 12:43:19,226 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-35
+2025-09-16 12:43:19,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-39
+2025-09-16 12:43:19,406 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-36
+2025-09-16 12:43:19,406 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-36
+2025-09-16 12:43:19,600 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-40
+2025-09-16 12:43:19,617 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-37
+2025-09-16 12:43:19,618 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-37
+2025-09-16 12:43:19,800 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-41
+2025-09-16 12:43:19,841 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-38
+2025-09-16 12:43:19,841 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-38
+2025-09-16 12:43:19,998 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-42
+2025-09-16 12:43:20,026 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-39
+2025-09-16 12:43:20,026 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-39
+2025-09-16 12:43:20,199 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-43
+2025-09-16 12:43:20,233 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-40
+2025-09-16 12:43:20,234 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-40
+2025-09-16 12:43:20,399 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-44
+2025-09-16 12:43:20,417 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-41
+2025-09-16 12:43:20,417 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-41
+2025-09-16 12:43:20,599 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-45
+2025-09-16 12:43:20,602 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-42
+2025-09-16 12:43:20,602 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-42
+2025-09-16 12:43:20,799 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-46
+2025-09-16 12:43:20,984 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-43
+2025-09-16 12:43:20,984 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-43
+2025-09-16 12:43:20,999 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-47
+2025-09-16 12:43:21,008 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-44
+2025-09-16 12:43:21,008 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-44
+2025-09-16 12:43:21,200 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-48
+2025-09-16 12:43:21,219 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-45
+2025-09-16 12:43:21,219 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-45
+2025-09-16 12:43:21,400 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-49
+2025-09-16 12:43:21,430 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-46
+2025-09-16 12:43:21,431 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-46
+2025-09-16 12:43:21,600 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-50
+2025-09-16 12:43:21,623 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-47
+2025-09-16 12:43:21,623 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-47
+2025-09-16 12:43:21,818 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-48
+2025-09-16 12:43:21,818 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-48
+2025-09-16 12:43:22,025 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-49
+2025-09-16 12:43:22,025 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-49
+2025-09-16 12:43:22,217 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-50
+2025-09-16 12:43:22,217 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-50
+2025-09-16 12:43:22,218 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-09-16 12:43:22,219 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-09-16 12:46:02,823 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-09-16 12:46:02,823 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-16 12:46:02,823 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-09-16 12:46:02,859 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Saucedemo.com
+2025-09-16 12:46:02,859 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Saucedemo.com.
+2025-09-16 12:46:02,859 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-09-16 12:46:02,859 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=10 delayedStart=false
+2025-09-16 12:46:02,860 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-1
+2025-09-16 12:46:02,866 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-09-16 12:46:02,866 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-09-16 12:46:03,061 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-2
+2025-09-16 12:46:03,261 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-3
+2025-09-16 12:46:03,460 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-4
+2025-09-16 12:46:03,660 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-5
+2025-09-16 12:46:03,719 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-2
+2025-09-16 12:46:03,719 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-2
+2025-09-16 12:46:03,720 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-1
+2025-09-16 12:46:03,721 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-1
+2025-09-16 12:46:03,860 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-6
+2025-09-16 12:46:03,873 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-3
+2025-09-16 12:46:03,873 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-3
+2025-09-16 12:46:04,060 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-7
+2025-09-16 12:46:04,078 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-4
+2025-09-16 12:46:04,078 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-4
+2025-09-16 12:46:04,261 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-8
+2025-09-16 12:46:04,282 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-5
+2025-09-16 12:46:04,283 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-5
+2025-09-16 12:46:04,461 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-9
+2025-09-16 12:46:04,661 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-10
+2025-09-16 12:46:04,760 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-6
+2025-09-16 12:46:04,760 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-6
+2025-09-16 12:46:04,860 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-11
+2025-09-16 12:46:04,881 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-8
+2025-09-16 12:46:04,881 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-8
+2025-09-16 12:46:04,951 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-7
+2025-09-16 12:46:04,951 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-7
+2025-09-16 12:46:05,062 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-12
+2025-09-16 12:46:05,086 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-9
+2025-09-16 12:46:05,086 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-9
+2025-09-16 12:46:05,255 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-10
+2025-09-16 12:46:05,256 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-10
+2025-09-16 12:46:05,261 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-13
+2025-09-16 12:46:05,460 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-14
+2025-09-16 12:46:05,497 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-11
+2025-09-16 12:46:05,498 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-11
+2025-09-16 12:46:05,656 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-12
+2025-09-16 12:46:05,656 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-12
+2025-09-16 12:46:05,660 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-15
+2025-09-16 12:46:05,860 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-16
+2025-09-16 12:46:05,893 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-13
+2025-09-16 12:46:05,894 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-13
+2025-09-16 12:46:06,059 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-17
+2025-09-16 12:46:06,090 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-14
+2025-09-16 12:46:06,090 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-14
+2025-09-16 12:46:06,261 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-18
+2025-09-16 12:46:06,279 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-15
+2025-09-16 12:46:06,279 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-15
+2025-09-16 12:46:06,459 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-19
+2025-09-16 12:46:06,499 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-16
+2025-09-16 12:46:06,499 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-16
+2025-09-16 12:46:06,659 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-20
+2025-09-16 12:46:06,677 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-17
+2025-09-16 12:46:06,677 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-17
+2025-09-16 12:46:06,859 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-21
+2025-09-16 12:46:06,886 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-18
+2025-09-16 12:46:06,886 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-18
+2025-09-16 12:46:07,059 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-22
+2025-09-16 12:46:07,073 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-19
+2025-09-16 12:46:07,074 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-19
+2025-09-16 12:46:07,259 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-23
+2025-09-16 12:46:07,296 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-20
+2025-09-16 12:46:07,296 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-20
+2025-09-16 12:46:07,446 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-21
+2025-09-16 12:46:07,446 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-21
+2025-09-16 12:46:07,460 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-24
+2025-09-16 12:46:07,660 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-25
+2025-09-16 12:46:07,860 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-26
+2025-09-16 12:46:07,889 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-22
+2025-09-16 12:46:07,889 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-22
+2025-09-16 12:46:07,904 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-23
+2025-09-16 12:46:07,904 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-23
+2025-09-16 12:46:08,060 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-27
+2025-09-16 12:46:08,183 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-24
+2025-09-16 12:46:08,183 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-24
+2025-09-16 12:46:08,260 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-28
+2025-09-16 12:46:08,286 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-25
+2025-09-16 12:46:08,287 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-25
+2025-09-16 12:46:08,460 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-29
+2025-09-16 12:46:08,488 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-26
+2025-09-16 12:46:08,488 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-26
+2025-09-16 12:46:08,660 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-30
+2025-09-16 12:46:08,691 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-27
+2025-09-16 12:46:08,691 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-27
+2025-09-16 12:46:08,859 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-31
+2025-09-16 12:46:08,878 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-28
+2025-09-16 12:46:08,878 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-28
+2025-09-16 12:46:09,055 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-29
+2025-09-16 12:46:09,056 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-29
+2025-09-16 12:46:09,059 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-32
+2025-09-16 12:46:09,260 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-33
+2025-09-16 12:46:09,284 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-30
+2025-09-16 12:46:09,284 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-30
+2025-09-16 12:46:09,460 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-34
+2025-09-16 12:46:09,488 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-31
+2025-09-16 12:46:09,488 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-31
+2025-09-16 12:46:09,660 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-35
+2025-09-16 12:46:09,664 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-32
+2025-09-16 12:46:09,664 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-32
+2025-09-16 12:46:09,861 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-36
+2025-09-16 12:46:09,891 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-33
+2025-09-16 12:46:09,891 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-33
+2025-09-16 12:46:10,052 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-34
+2025-09-16 12:46:10,052 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-34
+2025-09-16 12:46:10,060 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-37
+2025-09-16 12:46:10,260 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-38
+2025-09-16 12:46:10,459 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-39
+2025-09-16 12:46:10,487 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-36
+2025-09-16 12:46:10,488 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-36
+2025-09-16 12:46:10,560 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-35
+2025-09-16 12:46:10,561 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-35
+2025-09-16 12:46:10,660 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-40
+2025-09-16 12:46:10,697 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-37
+2025-09-16 12:46:10,697 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-37
+2025-09-16 12:46:10,859 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-41
+2025-09-16 12:46:10,889 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-38
+2025-09-16 12:46:10,889 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-38
+2025-09-16 12:46:11,060 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-42
+2025-09-16 12:46:11,067 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-39
+2025-09-16 12:46:11,067 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-39
+2025-09-16 12:46:11,259 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-43
+2025-09-16 12:46:11,287 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-40
+2025-09-16 12:46:11,287 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-40
+2025-09-16 12:46:11,460 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-44
+2025-09-16 12:46:11,491 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-41
+2025-09-16 12:46:11,491 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-41
+2025-09-16 12:46:11,661 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-45
+2025-09-16 12:46:11,700 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-42
+2025-09-16 12:46:11,700 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-42
+2025-09-16 12:46:11,860 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-46
+2025-09-16 12:46:11,890 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-43
+2025-09-16 12:46:11,890 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-43
+2025-09-16 12:46:12,062 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-47
+2025-09-16 12:46:12,103 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-44
+2025-09-16 12:46:12,103 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-44
+2025-09-16 12:46:12,260 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-48
+2025-09-16 12:46:12,311 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-45
+2025-09-16 12:46:12,311 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-45
+2025-09-16 12:46:12,460 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-49
+2025-09-16 12:46:12,490 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-46
+2025-09-16 12:46:12,491 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-46
+2025-09-16 12:46:12,659 INFO o.a.j.t.JMeterThread: Thread started: Saucedemo.com 1-50
+2025-09-16 12:46:12,693 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-47
+2025-09-16 12:46:12,693 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-47
+2025-09-16 12:46:13,010 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-48
+2025-09-16 12:46:13,010 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-48
+2025-09-16 12:46:13,092 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-49
+2025-09-16 12:46:13,092 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-49
+2025-09-16 12:46:13,293 INFO o.a.j.t.JMeterThread: Thread is done: Saucedemo.com 1-50
+2025-09-16 12:46:13,293 INFO o.a.j.t.JMeterThread: Thread finished: Saucedemo.com 1-50
+2025-09-16 12:46:13,293 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-09-16 12:46:13,294 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
