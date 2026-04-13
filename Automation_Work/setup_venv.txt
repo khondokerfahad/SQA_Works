@@ -1,0 +1,33 @@
+# Step 1: Generate new venv :
+
+-> python -m venv [name of venv]
+
+# Step 2: Activate venv :
+
+-> [name of venv]\Scripts\activate
+
+# Step 3: Upgrade pip
+
+-> python -m pip install --upgrade pip
+
+# Step 4: Install selenium
+
+-> pip install selenium 
+or
+-> python -m pip install selenium
+
+# Step 5: Install web-driver
+
+-> pip install webdriver-manager
+or
+-> python -m pip install webdriver-manager
+
+# Step 6: Exit venv
+
+deactivate
+
+
+
+
+
+
