@@ -5,7 +5,7 @@ I’m a Manual SQA Tester experienced in:
 - 🔍 Functional, UI/UX, cross-browser and mobile responsiveness testing
 - 🐞 Defect lifecycle management using Jira
 - 📋 Test documentation and reporting with Excel
-- 🌱 Team onboarding and technical mentoring
+- 🌱 Team onboarding
 
 I believe in bridging the gap between theoretical QA concepts and real-world application through practical tools, clear documentation, and collaborative testing.
 
@@ -16,7 +16,7 @@ I believe in bridging the gap between theoretical QA concepts and real-world app
 
 ## 💬 Contact
 Feel free to connect or contribute!  
-📧 Email: mdfahadfaisal7@gmail.com
+📧 Email: mdfahadfaisal7@gmail.com <br>
 🌐 GitHub: [khondokerfahad](https://github.com/khondokerfahad)
 
 ---
