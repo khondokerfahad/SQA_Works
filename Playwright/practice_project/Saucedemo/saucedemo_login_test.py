@@ -37,9 +37,9 @@ def main():
         
         try:
             expect(page.get_by_text("Products")).to_be_visible(timeout=3000)
-            print("✅ Assertion 3 PASSED: At least one product is displayed")
+            print("✅ Assertion 2 PASSED: At least one product is displayed")
         except Exception as e:
-            print(f"❌ Assertion 3 FAILED: No products found. Error: {e}")
+            print(f"❌ Assertion 2 FAILED: No products found. Error: {e}")
             page.screenshot(path=os.path.join(screenshot_dir, f"ERROR_no_products_{timestamp}.png"))
             raise
         
