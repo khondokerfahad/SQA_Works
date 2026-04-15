@@ -22,7 +22,7 @@ def main():
         page.get_by_placeholder("Password").fill("secret_sauce")
         page.screenshot(path=os.path.join(screenshot_dir, f"02_saucedemo-credentials_{timestamp}.png"))
         page.get_by_role("button", name = "Login").click()
-        print("✅ Step 4: Clicked Login")
+        print("✅ Step 2: Clicked Login")
         
         page.wait_for_url("**/inventory.html", timeout=30000)
         page.screenshot(path=os.path.join(screenshot_dir, f"03_saucedemo-inventory_{timestamp}.png"))
