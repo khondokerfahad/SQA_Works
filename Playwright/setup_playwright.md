@@ -12,9 +12,9 @@
 
 # Step 4: Install Playwright
 
--> pip install playwright
+-> pip install playwright<br>
 or<br>
--> python -m pip install playwright
+-> python -m pip install playwright<br>
 or<br>
 -> pip install pytest-playwright
 
