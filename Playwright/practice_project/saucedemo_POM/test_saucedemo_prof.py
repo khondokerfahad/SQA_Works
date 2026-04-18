@@ -15,7 +15,7 @@ def page(browser):
 @pytest.fixture(scope="session")
 def browser(playwright):
     """Launch browser once for all tests"""
-    # You can change browser here: chromium, firefox, webkit
+    # Can change browser here: chromium, firefox, webkit
     browser = playwright.chromium.launch(headless=False, slow_mo=600)
     yield browser
     browser.close()
@@ -84,5 +84,5 @@ if __name__ == "__main__":
         "--headed",              # Show browser
         "--html=report.html",    # Generate HTML report
         "--self-contained-html", # Make report self-contained
-        "--browser=chromium"     # You can also try: firefox, webkit
+        "--browser=chromium"     # Can also try: firefox, webkit
     ])
