@@ -13,9 +13,9 @@
 # Step 4: Install Playwright
 
 -> pip install playwright
-or
+or<br>
 -> python -m pip install playwright
-or
+or<br>
 -> pip install pytest-playwright
 
 # Step 5: Install web browsers
