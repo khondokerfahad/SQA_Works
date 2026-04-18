@@ -22,7 +22,7 @@ def main():
         page.get_by_placeholder("Password").fill("secret_sauce")
         page.screenshot(path=os.path.join(screenshot_dir, f"02_saucedemo-credentials_{timestamp}.png"))
         page.get_by_role("button", name = "Login").click()
-        print("✅ Step 2: Clicked Login")
+        print("✅ Step 4: Clicked Login")
         
         page.wait_for_url("**/inventory.html", timeout=30000)
         page.screenshot(path=os.path.join(screenshot_dir, f"03_saucedemo-inventory_{timestamp}.png"))
@@ -37,10 +37,10 @@ def main():
         
         try:
             expect(page.get_by_text("Products")).to_be_visible(timeout=3000)
-            print("✅ Assertion 2 PASSED: At least one product is displayed")
+            print("✅ Assertion 3 PASSED: At least one product is displayed")
         except Exception as e:
-            print(f"❌ Assertion 2 FAILED: No products found. Error: {e}")
-            page.screenshot(path=os.path.join(screenshot_dir, f"ERROR_no_products_{timestamp}.png"))
+            print(f"❌ Assertion 2 FAILED: Products header not found. Error: {e}")
+            page.screenshot(path=os.path.join(screenshot_dir, f"ERROR_products_header_{timestamp}.png"))
             raise
         
 if __name__ == "__main__":
