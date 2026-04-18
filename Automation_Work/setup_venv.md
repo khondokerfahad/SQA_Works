@@ -12,14 +12,14 @@
 
 # Step 4: Install selenium
 
--> pip install selenium 
-or
+-> pip install selenium <br>
+or<br>
 -> python -m pip install selenium
 
 # Step 5: Install web-driver
 
--> pip install webdriver-manager
-or
+-> pip install webdriver-manager<br>
+or<br>
 -> python -m pip install webdriver-manager
 
 # Step 6: Exit venv
