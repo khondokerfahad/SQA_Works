@@ -1,0 +1,137 @@
+{
+    "name": "SauceDemo - Full E2E Flow",
+    "status": "passed",
+    "description": "End-to-End test with Allure reporting",
+    "steps": [
+        {
+            "name": "Step 1: Perform Login",
+            "status": "passed",
+            "steps": [
+                {
+                    "name": "Login to SauceDemo",
+                    "status": "passed",
+                    "attachments": [
+                        {
+                            "name": "After_Login",
+                            "source": "e866b143-f021-416e-9f8a-56eff098fa38-attachment.png",
+                            "type": "image/png"
+                        }
+                    ],
+                    "start": 1777356740555,
+                    "stop": 1777356744885
+                }
+            ],
+            "start": 1777356740555,
+            "stop": 1777356744885
+        },
+        {
+            "name": "Step 2: Add product to cart",
+            "status": "passed",
+            "steps": [
+                {
+                    "name": "Add product to cart: 'Sauce Labs Backpack'",
+                    "status": "passed",
+                    "attachments": [
+                        {
+                            "name": "After_Adding_Sauce Labs Backpack",
+                            "source": "c2d61a07-4a4d-4464-a582-8aec71d311a6-attachment.png",
+                            "type": "image/png"
+                        }
+                    ],
+                    "parameters": [
+                        {
+                            "name": "product_name",
+                            "value": "'Sauce Labs Backpack'"
+                        }
+                    ],
+                    "start": 1777356744885,
+                    "stop": 1777356745605
+                }
+            ],
+            "start": 1777356744885,
+            "stop": 1777356745605
+        },
+        {
+            "name": "Step 3: Verify Cart Badge",
+            "status": "passed",
+            "start": 1777356745605,
+            "stop": 1777356745633
+        },
+        {
+            "name": "Step 4: Go to Cart",
+            "status": "passed",
+            "steps": [
+                {
+                    "name": "Go to Shopping Cart",
+                    "status": "passed",
+                    "start": 1777356745633,
+                    "stop": 1777356746274
+                }
+            ],
+            "start": 1777356745633,
+            "stop": 1777356746274
+        },
+        {
+            "name": "Step 5: Verify Product in Cart",
+            "status": "passed",
+            "start": 1777356746274,
+            "stop": 1777356746280
+        }
+    ],
+    "attachments": [
+        {
+            "name": "Final_Cart_Page",
+            "source": "04ce284b-dda4-40a9-94e1-87a51ac3cd4e-attachment.png",
+            "type": "image/png"
+        },
+        {
+            "name": "stdout",
+            "source": "15177dd3-3a7b-48c0-ac5d-22a588616437-attachment.txt",
+            "type": "text/plain"
+        }
+    ],
+    "start": 1777356740555,
+    "stop": 1777356746332,
+    "uuid": "2f5548ca-a747-471b-82c2-1890640abdc5",
+    "historyId": "37bfe3a28bad0e0a56cc9a8deebb8431",
+    "testCaseId": "37bfe3a28bad0e0a56cc9a8deebb8431",
+    "fullName": "tests.test_saucedemo_allure#test_full_e2e_flow",
+    "labels": [
+        {
+            "name": "severity",
+            "value": "critical"
+        },
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_saucedemo_allure"
+        },
+        {
+            "name": "host",
+            "value": "DESKTOP-0IHMBNM"
+        },
+        {
+            "name": "thread",
+            "value": "39076-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_saucedemo_allure"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_saucedemo_allure.py"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "name": "test_full_flow",
+    "status": "passed",
+    "description": "Complete test using simple POM classes",
+    "attachments": [
+        {
+            "name": "stdout",
+            "source": "11b04db7-1c73-41d0-9739-00d66896b5e8-attachment.txt",
+            "type": "text/plain"
+        }
+    ],
+    "start": 1777356746861,
+    "stop": 1777356752922,
+    "uuid": "2351864d-5590-4a17-8f76-76fdaa4861fb",
+    "historyId": "74b9eaaa97a87ac61820ab1118e3e054",
+    "testCaseId": "74b9eaaa97a87ac61820ab1118e3e054",
+    "fullName": "tests.test_saucedemo_pom#test_full_flow",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_saucedemo_pom"
+        },
+        {
+            "name": "host",
+            "value": "DESKTOP-0IHMBNM"
+        },
+        {
+            "name": "thread",
+            "value": "39076-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_saucedemo_pom"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_saucedemo_pom.py"
+    ]
+}
