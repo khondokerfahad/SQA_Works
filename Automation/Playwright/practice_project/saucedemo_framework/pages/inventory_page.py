@@ -1,4 +1,4 @@
-from pages.base_page import BasePage
+from Automation.Playwright.practice_project.saucedemo_framework.pages.base_page import BasePage
 from playwright.sync_api import expect
 
 class InventoryPage(BasePage):

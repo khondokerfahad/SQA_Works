@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright, expect
-from pages.login_page import LoginPage
-from pages.inventory_page import InventoryPage
+from Automation.Playwright.practice_project.saucedemo_POM.pages.login_page import LoginPage
+from Automation.Playwright.practice_project.saucedemo_POM.pages.inventory_page import InventoryPage
 import os
 from datetime import datetime
 
