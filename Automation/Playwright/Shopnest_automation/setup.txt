@@ -1,0 +1,10 @@
+After Creating project folder : 
+-> Install requirements
+-> install playwright : pip install --user playwright
+-> Install browsers : python -m playwright install
+-> Check if it is installed : python -m playwright --version
+
+
+Create venv and when under venv
+# 1. Install playwright package : pip install playwright
+# 2. Verify pytest works : python -m pytest --version
