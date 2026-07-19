@@ -1,6 +1,6 @@
 from page_object.base_page import BasePage
 
-class HomePage(BasPage):
+class HomePage(BasePage):
     def __init__(self, page):
         super().__init__(page)
         

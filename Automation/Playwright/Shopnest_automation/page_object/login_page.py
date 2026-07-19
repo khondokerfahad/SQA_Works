@@ -1,7 +1,7 @@
 from page_object.base_page import BasePage
 from page_object.home_page import HomePage
 
-class login_page(BasePage):
+class LoginPage(BasePage):
     def __init__(self, page):
         super().__init__(page)
         
