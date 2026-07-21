@@ -11,7 +11,7 @@ class TestLogin:
     
     
     @pytest.fixture(scope="function")
-    def page(self, browser: Browser) -> Page:
+    def page(self, browser: Browser):
         
         page = browser.new_page()
         page.goto(TestData.login_url)
