@@ -1,0 +1,2922 @@
+{
+	"info": {
+		"_postman_id": "23d80af5-efd2-4be8-be32-4867d59e73b2",
+		"name": "Nutriapp",
+		"description": "--\n\nContact Support:\n Email: masipulislam@gmail.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40002750",
+		"_collection_link": "https://siam22-7822.postman.co/workspace/Team-Workspace~e757edec-f30b-444c-8677-29f35109c805/collection/40002750-23d80af5-efd2-4be8-be32-4867d59e73b2?action=share&source=collection_link&creator=40002750"
+	},
+	"item": [
+		{
+			"name": "analytics",
+			"item": [
+				{
+					"name": "calories list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/report/calories/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"report",
+								"calories",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/calories/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"calories",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "macronutricents list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/report/macronutricents/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"report",
+								"macronutricents",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/macronutricents/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"macronutricents",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "macrominerals list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/report/macrominerals/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"report",
+								"macrominerals",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/macrominerals/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"macrominerals",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "micromineral list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/report/microminerals/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"report",
+								"microminerals",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/microminerals/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"microminerals",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "fat-soluble-vitamins list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/report/fat-soluble-vitamins/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"report",
+								"fat-soluble-vitamins",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/fat-soluble-vitamins/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"fat-soluble-vitamins",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "water-soluble-vitamins list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/analytics/report/water-soluble-vitamins/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"report",
+								"water-soluble-vitamins",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/water-soluble-vitamins/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"water-soluble-vitamins",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "activity",
+			"item": [
+				{
+					"name": "activity all list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjkzNTQwLCJpYXQiOjE3NDE2ODg3NDAsImp0aSI6ImQ2ZGM0MDVhYzRjYzQxZDE5MmM1M2VlNTg1YzJiZWRiIiwidXNlcl9pZCI6MTB9.Nn1XcxwiTS0L_1frJ50j9AtCbYNTRJ9oK3Hu9wzkdAU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/activity/all/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"activity",
+								"all",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/activity/all/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"activity",
+										"all",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "activity recent list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/activity/recent/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"activity",
+								"recent",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/activity/recent/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"activity",
+										"recent",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "activity quicklog all list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1Njc3ODY5LCJpYXQiOjE3NDUwNzMwNjksImp0aSI6ImFlYzFlMDZhYzQ1YzQ3NTNiYzVmNjFmNThlYjA3YjU2IiwidXNlcl9pZCI6MX0.7gVbEs9wknm7ZKQK8-CF6fIgtGmaH6fXy-ZLaiesSGo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/activity/quicklog/all/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"activity",
+								"quicklog",
+								"all",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/activity/quicklog/all/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"activity",
+										"quicklog",
+										"all",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "activity quicklog create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1Njc3ODY5LCJpYXQiOjE3NDUwNzMwNjksImp0aSI6ImFlYzFlMDZhYzQ1YzQ3NTNiYzVmNjFmNThlYjA3YjU2IiwidXNlcl9pZCI6MX0.7gVbEs9wknm7ZKQK8-CF6fIgtGmaH6fXy-ZLaiesSGo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"recent_activity_id\": 6\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/activity/quicklog/create/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"activity",
+								"quicklog",
+								"create",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/activity/quicklog/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"activity",
+										"quicklog",
+										"create",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "activity create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "football",
+									"type": "text"
+								},
+								{
+									"key": "duration",
+									"value": "30",
+									"type": "text"
+								},
+								{
+									"key": "calorie_burned",
+									"value": "320",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/activity/create/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"activity",
+								"create",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/activity/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"activity",
+										"create",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "develop-plan create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"gender\": \"male\",\r\n  \"height\": 175,\r\n  \"weight\": 70,\r\n  \"desired_weight\": 65,\r\n  \"workout_level\": \"Lite\",\r\n  \"country\": \"USA\",\r\n  \"other_calorie_tracking\": true,\r\n  \"date_of_birth\": \"1990-01-01\",\r\n  \"choose_goal\": \"lose\", \r\n  \"choose_target\": \"slow\",\r\n  \"diet_type\": \"vegan\",\r\n  \"achiveing_goal\": \"time_constraints\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/develop-plan/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"develop-plan",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/develop-plan/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"develop-plan",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "quicklog_to_activity_add",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1Njc3ODY5LCJpYXQiOjE3NDUwNzMwNjksImp0aSI6ImFlYzFlMDZhYzQ1YzQ3NTNiYzVmNjFmNThlYjA3YjU2IiwidXNlcl9pZCI6MX0.7gVbEs9wknm7ZKQK8-CF6fIgtGmaH6fXy-ZLaiesSGo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"quicklog_id\": 12,\r\n    \"duration\": 30\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/activity/quicklog_to_add/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"activity",
+								"quicklog_to_add",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/develop-plan/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"develop-plan",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"siam1@gmail.com\",\r\n    \"password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/login/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"login",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/login/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"login",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "logout",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/users/logout/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"logout",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/logout/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"logout",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"details_id\": 4,\r\n    \"macronutricents_id\": 12,\r\n    \"email\": \"siam1@gmail.com\",\r\n    \"password\": \"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/signup/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"signup",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/signup/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"signup",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "password reset-request 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"siam1@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/password/reset-request/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"password",
+								"reset-request",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/password/reset-request/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"password",
+										"reset-request",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "password reset-activate 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"siam1@gmail.com\",\r\n    \"otp\": 5269\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/password/reset-activate/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"password",
+								"reset-activate",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/password/reset-activate/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"password",
+										"reset-activate",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "password reset 3",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzM2OTk4LCJpYXQiOjE3NDAxMzIxOTgsImp0aSI6IjY4MDIzZjcyMGNkODQzYTc4N2Q1NzEyMWY0YTkxZGUwIiwidXNlcl9pZCI6MTB9.jzN2UzCN2r1GlP3jgVwZQkVx8XCD2rVmFdPvXFBxZc4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"new_password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/password/reset/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"password",
+								"reset",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/password/reset/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"password",
+										"reset",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "change_password",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzM2OTk4LCJpYXQiOjE3NDAxMzIxOTgsImp0aSI6IjY4MDIzZjcyMGNkODQzYTc4N2Q1NzEyMWY0YTkxZGUwIiwidXNlcl9pZCI6MTB9.jzN2UzCN2r1GlP3jgVwZQkVx8XCD2rVmFdPvXFBxZc4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"new_password\": \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/password/change/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"password",
+								"change",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/password/reset/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"password",
+										"reset",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "request token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"refresh_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MDczNjk5OCwiaWF0IjoxNzQwMTMyMTk4LCJqdGkiOiJhYzkxZjgxMzEzYjk0MGU5YTMwN2YzNGJjOWUwZjQ1YSIsInVzZXJfaWQiOjEwfQ.BlE1QS45lClWZtN9MxUL8ZvukADpQIkbS9Q_xdcSu2g\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/token/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"token",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/token/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"token",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "user delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/users/delete/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"delete",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/delete/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"delete",
+										""
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "resend_otp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"masipulisalm@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/resend_otp/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"resend_otp",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/delete/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"delete",
+										""
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Home page",
+			"item": [
+				{
+					"name": "home recent image",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0NzE2OTY3LCJpYXQiOjE3NDQxMTIxNjcsImp0aSI6ImJiMjNlYWQ3MzY2ZDRiZDc5MDNhN2E0ZTZlMTQ2NmRjIiwidXNlcl9pZCI6MX0.EUhjMl1dK_EU3evvaAdDJ8M9oaBjkbBA4qDruMaSqYc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"date\": \"2025-04-08\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/analytics/home/recent_image/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"home",
+								"recent_image",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/macronutricents/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"macronutricents",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "home nutricents_info",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjkzNTQwLCJpYXQiOjE3NDE2ODg3NDAsImp0aSI6ImQ2ZGM0MDVhYzRjYzQxZDE5MmM1M2VlNTg1YzJiZWRiIiwidXNlcl9pZCI6MTB9.Nn1XcxwiTS0L_1frJ50j9AtCbYNTRJ9oK3Hu9wzkdAU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"date\": \"2025-03-11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/analytics/home/nutricents_info/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"analytics",
+								"home",
+								"nutricents_info",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/analytics/report/macronutricents/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"analytics",
+										"report",
+										"macronutricents",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "meal",
+			"item": [
+				{
+					"name": "meal list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjkzNTQwLCJpYXQiOjE3NDE2ODg3NDAsImp0aSI6ImQ2ZGM0MDVhYzRjYzQxZDE5MmM1M2VlNTg1YzJiZWRiIiwidXNlcl9pZCI6MTB9.Nn1XcxwiTS0L_1frJ50j9AtCbYNTRJ9oK3Hu9wzkdAU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/meal/all/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal",
+								"all",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal/all/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal",
+										"all",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "supplement to data create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ2MTkzMjA2LCJpYXQiOjE3NDU1ODg0MDYsImp0aSI6IjcxMmY4OGE2NDllODQyMWM5NWVhMDE5YWQxMzVhZDBjIiwidXNlcl9pZCI6MX0.84ga1An5FQY8sUXK__2nXOYKbP0_9CSOSOLAmYFP8Rw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/bdCalling/Downloads/ab92.avif"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/supplement/create/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"supplement",
+								"create",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal/all/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal",
+										"all",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal-item list",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1ODUxNDM5LCJpYXQiOjE3NDUyNDY2MzksImp0aSI6ImM2MzAzYjBkYmZhNTQ1ZDk5NzIyZjA4OWJlMTA4NzYxIiwidXNlcl9pZCI6MX0.ABCo8z-kOmsJau5ggwBl3jSDVbe98SZEjpqQ8yyBAt8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/meal-item/31/all/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal-item",
+								"31",
+								"all",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal-item/all/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal-item",
+										"all",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal-item recent list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjkzNTQwLCJpYXQiOjE3NDE2ODg3NDAsImp0aSI6ImQ2ZGM0MDVhYzRjYzQxZDE5MmM1M2VlNTg1YzJiZWRiIiwidXNlcl9pZCI6MTB9.Nn1XcxwiTS0L_1frJ50j9AtCbYNTRJ9oK3Hu9wzkdAU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/meal-item/recent/list/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal-item",
+								"recent",
+								"list",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal-item/recent/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal-item",
+										"recent",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal-item create list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0NzIzMjIxLCJpYXQiOjE3NDQxMTg0MjEsImp0aSI6IjZjMGM5NGIxOTM3ODQ5ZTliODc5NWM0MzI4OGRjZDczIiwidXNlcl9pZCI6MX0.kORqIoJ86_klPCJW-Y9GJViIE63Ba25lZ_TLtMLdSLM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/meal-item/create-list/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal-item",
+								"create-list",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal-item/recent/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal-item",
+										"recent",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal-item quicklog list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0NzIzMjIxLCJpYXQiOjE3NDQxMTg0MjEsImp0aSI6IjZjMGM5NGIxOTM3ODQ5ZTliODc5NWM0MzI4OGRjZDczIiwidXNlcl9pZCI6MX0.kORqIoJ86_klPCJW-Y9GJViIE63Ba25lZ_TLtMLdSLM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/meal-item/quicklog-list/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal-item",
+								"quicklog-list",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal-item/recent/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal-item",
+										"recent",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyODMzOTE1LCJpYXQiOjE3NDIyMjkxMTUsImp0aSI6IjQ1MjE3NThlOTdkMTRjZTk5MzRlZjdiNDIxYjhhNzU4IiwidXNlcl9pZCI6MTB9.IWSO2AmYH9WL-IdlIz-5p9HyVG3FvTuLwk2v6XkiRKw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Chicken Salad\",\r\n    \"time\": \"12:30:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/meal/create/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal",
+								"create",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal",
+										"create",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1OTM4OTA2LCJpYXQiOjE3NDUzMzQxMDYsImp0aSI6IjQ1MjE0M2Q5ZmYyZTRjNmE4ZTNlMGVhNjcxY2FmNDdmIiwidXNlcl9pZCI6MX0.0skz-PK7FhXm0z_VCqEYN9VBCe483HHEHtr9pUtKe_c",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n    \"name\": \"Chicken Salad\",\r\n    \"time\": \"08:40:00\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/meal/update/37/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal",
+								"update",
+								"37",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal/update/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal",
+										"update",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "image-to-data create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0NDYyNzI1LCJpYXQiOjE3NDM4NTc5MjUsImp0aSI6IjUxYmJhZmUwYjViZTQ2OWM5ZjVkYWE0MmEwZjgxYWY3IiwidXNlcl9pZCI6MTB9.dMVm3x2XVqyVUBI3wjTDJcTW60sSGlfQo9mU_0SXPa0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/bdCalling/Downloads/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/meal-item/image-to-data/create/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal-item",
+								"image-to-data",
+								"create",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal-item/image-to-data/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal-item",
+										"image-to-data",
+										"create",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "quicklog to activity add",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1MDUzNzM2LCJpYXQiOjE3NDQ0NDg5MzYsImp0aSI6ImEzZWQ3OWU2YjJjZTQ2NmZiZDYyNThhMGU1MjExNTlmIiwidXNlcl9pZCI6MX0.6hsKcZD5bX_UKbDICSPi8NZnOn6v-preE1kpL02IdQ0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"duration\": \"\",\r\n    \"quicklog_id\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/activity/quicklog_to_add/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"activity",
+								"quicklog_to_add",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/quick-log/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"quick-log",
+										"create",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal quick-log create Copy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyMjkzNTQwLCJpYXQiOjE3NDE2ODg3NDAsImp0aSI6ImQ2ZGM0MDVhYzRjYzQxZDE5MmM1M2VlNTg1YzJiZWRiIiwidXNlcl9pZCI6MTB9.Nn1XcxwiTS0L_1frJ50j9AtCbYNTRJ9oK3Hu9wzkdAU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"created_id\": 12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/quick-log/create/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"quick-log",
+								"create",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/quick-log/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"quick-log",
+										"create",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal-item create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0NzIzMjIxLCJpYXQiOjE3NDQxMTg0MjEsImp0aSI6IjZjMGM5NGIxOTM3ODQ5ZTliODc5NWM0MzI4OGRjZDczIiwidXNlcl9pZCI6MX0.kORqIoJ86_klPCJW-Y9GJViIE63Ba25lZ_TLtMLdSLM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"create_or_log_id\": 12,\r\n    \"meal_id\": 2,\r\n    \"quantity\": 2\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/meal-item/create/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal-item",
+								"create",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal-item/create/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal-item",
+										"create",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal-item delete delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/meal-item/delete/:id/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal-item",
+								"delete",
+								":id",
+								""
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "<string>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal-item/delete/:id/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal-item",
+										"delete",
+										":id",
+										""
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "meal delete delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ0NzIzMjIxLCJpYXQiOjE3NDQxMTg0MjEsImp0aSI6IjZjMGM5NGIxOTM3ODQ5ZTliODc5NWM0MzI4OGRjZDczIiwidXNlcl9pZCI6MX0.kORqIoJ86_klPCJW-Y9GJViIE63Ba25lZ_TLtMLdSLM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/main/meal/delete/30/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"meal",
+								"delete",
+								"30",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/meal/delete/:id/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"meal",
+										"delete",
+										":id",
+										""
+									],
+									"variable": [
+										{
+											"key": "id"
+										}
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "settings",
+			"item": [
+				{
+					"name": "calorie-burned auto-fill",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzM2OTk4LCJpYXQiOjE3NDAxMzIxOTgsImp0aSI6IjY4MDIzZjcyMGNkODQzYTc4N2Q1NzEyMWY0YTkxZGUwIiwidXNlcl9pZCI6MTB9.jzN2UzCN2r1GlP3jgVwZQkVx8XCD2rVmFdPvXFBxZc4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"activity_name\": \"football\",\r\n    \"duration\": 50\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/calorie-burned/auto-fill/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"calorie-burned",
+								"auto-fill",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/calorie-burned/auto-fill/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"calorie-burned",
+										"auto-fill",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "adjust-goal",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwNzQxNzY3LCJpYXQiOjE3NDAxMzY5NjcsImp0aSI6ImJjY2U2ZjhkZmI4YTQ1MzViODgxZWJkMzNmMjBmYmVjIiwidXNlcl9pZCI6MTB9.-bZk6t4n-1YPYOAfSkg8Lqp-BUs0Idn3VpJ1c_FcdbQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"protein\": 230\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/main/adjust-goal/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"main",
+								"adjust-goal",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/main/develop-plan/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"main",
+										"develop-plan",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "update-details",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1MDUzNzM2LCJpYXQiOjE3NDQ0NDg5MzYsImp0aSI6ImEzZWQ3OWU2YjJjZTQ2NmZiZDYyNThhMGU1MjExNTlmIiwidXNlcl9pZCI6MX0.6hsKcZD5bX_UKbDICSPi8NZnOn6v-preE1kpL02IdQ0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"gender\": \"female\",\r\n    \"height\": 175,\r\n    \"weight\": 70,\r\n    \"desired_weight\": 65,\r\n    \"workout_level\": \"Lite\",\r\n    \"country\": \"USA\",\r\n    \"other_calorie_tracking\": true,\r\n    \"date_of_birth\": \"1990-01-01\",\r\n    \"choose_goal\": \"lose_weight\",\r\n    \"choose_target\": \"fast\",\r\n    \"diet_type\": \"low_carbs\",\r\n    \"achiveing_goal\": \"time_constraints\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/users/update-details/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"users",
+								"update-details",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/users/update-details/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users",
+										"update-details",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Notification",
+			"item": [
+				{
+					"name": "notifications list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/notifications/list/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"notifications",
+								"list",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "mark-as-read",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"notification_id\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/notifications/mark-as-read/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"notifications",
+								"mark-as-read",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ2MTkzMjA2LCJpYXQiOjE3NDU1ODg0MDYsImp0aSI6IjcxMmY4OGE2NDllODQyMWM5NWVhMDE5YWQxMzVhZDBjIiwidXNlcl9pZCI6MX0.84ga1An5FQY8sUXK__2nXOYKbP0_9CSOSOLAmYFP8Rw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/notifications/delete/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"notifications",
+								"delete",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "Authorization",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://192.168.10.131:5000/api/v1"
+		}
+	]
+}
